@@ -12,8 +12,8 @@ else
   socks5=""
 fi
 
-curl http://update.cz88.net/ip/copywrite.rar -o copywrite.rar$socks5 --user-agent '$ua'
-curl http://update.cz88.net/ip/qqwry.rar -o qqwry.rar$socks5 --user-agent '$ua'
+curl http://moe.tips/copywrite.rar -o copywrite.rar$socks5 --user-agent '$ua'
+curl http://moe.tips/ip/qqwry.rar -o qqwry.rar$socks5 --user-agent '$ua'
 
 cat > unlock.php <<EOF 
 <?php
